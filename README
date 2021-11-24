@@ -1,17 +1,17 @@
-This repository contains key scripts used to generate the results in our paper: https://www.biorxiv.org/content/10.1101/2020.03.01.971739v1.full
+This repository contains key scripts used to generate the results in our paper: https://nn.neurology.org/content/8/4/e1007
 
 The autosomal genetic risk score was created by running the following (in order):
-1. ms_prs_stage1.sh
+1. ms_prs_stage1.sh (or ms_prs_stage1_mhc.sh for the MHC score)
 2. ms_prs_stage2.sh
 3. ms_prs_stage3.sh
 4. ms_prs_stage4.sh
-5. ms_prs_stage5.sh
+5. ms_prs_stage5.r
 
 The script ukb_convert_pheno_stage3.r was used to define disease variables from ICD codes and self-report, and to define HLA alleles from impute HLA data.
 
-Details of the main analyses in the paper are in ukb_case_control.r.
+Details of the main analyses in the paper are in ukb_case_control_16_02.r.
 
 Please email b.jacobs@qmul.ac.uk if you have any questions or suggestions.
 
 Ben Jacobs
-8/3/20
+24/11/21
