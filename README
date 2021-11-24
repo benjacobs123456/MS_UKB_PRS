@@ -11,8 +11,6 @@ The script ukb_convert_pheno_stage3.r was used to define disease variables from 
 
 Details of the main analyses in the paper are in ukb_case_control.r.
 
-Details of interaction analyses (Attributable Proportion due to interaction) are in bmi.r, menarche.r, prs.r, and smoking.r.
-
 Please email b.jacobs@qmul.ac.uk if you have any questions or suggestions.
 
 Ben Jacobs
