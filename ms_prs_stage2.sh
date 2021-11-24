@@ -17,6 +17,5 @@ for i in {1..22}
   do
     awk /rs/'{print $3}' ./imputed_ukb_genotypes/plink2_files/chr_$i\.pvar | sort | uniq -d > non_unique_snps_chr$i
   done
-  
 
-
+rm /data/scratch/hmy117/overall_prs_pval*
